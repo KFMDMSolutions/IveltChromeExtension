@@ -1,5 +1,4 @@
 const preferencesOptions = [
-	'hideUserName',
 	'getBrowserNotifications',
 	'warnOnLosingPost',
 	'backgroundSync',
@@ -9,7 +8,6 @@ const preferencesOptions = [
 
 // Listen to settings changes
 function startListeners(){
-
 	preferencesOptions.forEach(prefName => {
 		document.getElementById(prefName).addEventListener('change', (e) => {
 			var newSetting = {};

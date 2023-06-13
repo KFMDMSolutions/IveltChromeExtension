@@ -1,0 +1,14 @@
+[
+  {
+    "id" : 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://ivelt.com/forum/" }
+    },
+    "condition": {
+      "regexFilter": "^(.*)xn--4dbhss5b(.*)",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
